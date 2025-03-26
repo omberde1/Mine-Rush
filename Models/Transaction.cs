@@ -12,7 +12,11 @@ namespace MinesGame.Models
         public int TransactionId { get; set; }
 
         public int PlayerId { get; set; }
+<<<<<<< HEAD
         [ForeignKey("PlayerId")]
+=======
+        [ForeignKey("Player_Id")]
+>>>>>>> 179f8ca167be3064e7568826beec9dfc6cf2bdbf
         public Player? Player { get; set; }
         
         [Required] 
