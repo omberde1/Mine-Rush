@@ -1,14 +1,23 @@
 using Microsoft.EntityFrameworkCore;
 using MinesGame.Data;
+using MinesGame.Repository;
+using MinesGame.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Register SqlServer
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnection"));
 });
+
+// Register repositories
+builder.Services.AddScoped<IGameRepository, PlayerRepository>();
+
+// Register services
+builder.Services.AddScoped<IGameService, PlayerService>();
 
 var app = builder.Build();
 
