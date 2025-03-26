@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\CODING_OM\Asp Projects\MinesGame
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/CODING_OM/Asp Projects/MinesGame/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[E:/CODING_OM/Asp Projects/MinesGame/Views/Game/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/CODING_OM/Asp Projects/MinesGame/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[E:/CODING_OM/Asp Projects/MinesGame/Views/Game/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FtZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/CODING_OM/Asp Projects/MinesGame/Views/Shared/Error.cshtml]
