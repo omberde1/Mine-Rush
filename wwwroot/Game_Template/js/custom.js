@@ -1,9 +1,10 @@
 (function ($) {
   "use strict";
 
-  $(document).ready(function () {
-    $('select').niceSelect();
-  });
+  // $(document).ready(function () {
+  //   $('select').niceSelect();
+  // });
+
   // menu fixed js code
   $(window).scroll(function () {
     var window_top = $(window).scrollTop() + 1;
@@ -143,12 +144,6 @@
   setInterval(function () {
     makeTimer();
   }, 1000);
-
-  //------- Mailchimp js --------//  
-  function mailChimp() {
-    $('#mc_embed_signup').find('form').ajaxChimp();
-  }
-  mailChimp();
 
 
 }(jQuery));

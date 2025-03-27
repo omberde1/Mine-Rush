@@ -1,30 +1,124 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MinesGame.Models;
 using MinesGame.Service;
+using MinesGame.ViewModels;
 
 namespace MinesGame.Controllers;
 
 public class GameController : Controller
 {
     private readonly ILogger<GameController> _logger;
-    private readonly IGameService _gameService;
+    private readonly IPlayerService _playerService;
 
-    public GameController(IGameService gameService ,ILogger<GameController> logger)
+    public GameController(IPlayerService playerService, ILogger<GameController> logger)
     {
-        _gameService = gameService;
+        _playerService = playerService;
         _logger = logger;
     }
 
+    /* ---------- REGISTER | LOGIN ---------- */
     [HttpGet]
-    [Route("[controller]/Home")]
-    public IActionResult HomePage()
+    public IActionResult Register()
+    {
+        if (User.Identity?.IsAuthenticated == true)
+        {
+            return RedirectToAction("Home", "Game");
+        }
+        return View();
+    }
+    [HttpPost]
+    public async Task<IActionResult> Register([FromBody] PlayerViewModel player)
+    {
+        bool isServerRunning = await _playerService.IsSqlServerAvailableAsync();
+        if (isServerRunning == false)
+        {
+            return StatusCode(503, new { message = "Server down!" });
+        }
+        else
+        {
+            if (await _playerService.RegisterPlayerAsync(player) == true)
+            {
+                return Json(new { success = true, message = "Account created!" });
+            }
+            else
+            {
+                return Json(new { success = false, message = "Username/Email already exists" });
+            }
+        }
+    }
+
+    [HttpGet]
+    public IActionResult Login()
+    {
+        if (User.Identity?.IsAuthenticated == true)
+        {
+            return RedirectToAction("Home", "Game");
+        }
+        return View();
+    }
+    [HttpPost]
+    public async Task<IActionResult> Login(string username_email, string password)
+    {
+        bool isServerRunning = await _playerService.IsSqlServerAvailableAsync();
+        if (isServerRunning == false)
+        {
+            return Json(new { success = false, message = "Server down!" });
+        }
+        else
+        {
+            bool isSignedIn = await _playerService.LoginPlayerAsync(HttpContext, username_email, password);
+
+            if (isSignedIn == true)
+            {
+                return Json(new { success = true, message = "Login successful!" });
+            }
+            else
+            {
+                return Json(new { success = false, message = "Invalid username or password!" });
+            }
+        }
+    }
+
+    [HttpGet]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> Logout()
+    {
+        await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        return RedirectToAction("Home", "Game");
+    }
+
+    /* ---------- MINES GAME APP ---------- */
+    [HttpGet]
+    public IActionResult Home()
     {
         return View();
     }
 
-    [Route("[controller]/PlayMines")]
-    public IActionResult PlayGamePage()
+    [HttpGet]
+    [Authorize(Roles = "Player")]
+    public IActionResult PlayGame()
+    {
+        return View("PlayGame");
+    }
+
+    [HttpGet]
+    public IActionResult Rules()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult About()
+    {
+        return View();
+    }
+
+    [HttpGet]
+    public IActionResult Contact()
     {
         return View();
     }

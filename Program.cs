@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using MinesGame.Data;
 using MinesGame.Repository;
@@ -13,11 +14,17 @@ builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnection"));
 });
 
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options => {
+    options.LoginPath = "/Game/Login";
+    options.LogoutPath = "/Game/Logout";
+    options.AccessDeniedPath = "/Game/AccessDenied";
+});
+
 // Register repositories
-builder.Services.AddScoped<IGameRepository, PlayerRepository>();
+builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
 
 // Register services
-builder.Services.AddScoped<IGameService, PlayerService>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
 
 var app = builder.Build();
 
@@ -34,10 +41,11 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Game}/{action=Index}/{id?}");
+    pattern: "{controller=Game}/{action=Home}/{id?}");
 
 app.Run();

@@ -13,13 +13,10 @@ WHERE TABLE_NAME = 'Table_Player';
 /* -------------------- */
 
 -- 1) Players Table
-/* 
+
 SELECT TOP (1000) [PlayerId]
       ,[Username]
       ,[Email]
       ,[Password]
       ,[Balance]
   FROM [MinesGame].[dbo].[Table_Player]
-*/
-
-
