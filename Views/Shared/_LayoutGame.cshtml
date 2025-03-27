@@ -6,7 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Mines | @ViewData["Title"]</title>
+    <!-- LOGO ICON -->
     <link rel="icon" href="~/Game_Template/img/favicon.png">
+    <!-- Scollbar CSS -->
+    <link rel="stylesheet" href="~/css/scroll-bar-custom.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="~/Game_Template/css/bootstrap.min.css">
     <!-- animate CSS -->
@@ -95,7 +98,7 @@
                                         Profile
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="@Url.Action("EditProfile", "Game")">Edit Profile</a>
+                                        <a class="dropdown-item" href="@Url.Action("Profile", "Game")">Edit Profile</a>
                                         <a class="dropdown-item" href="@Url.Action("Balance", "Game")">Balance</a>
                                         <li>
                                             <hr class="dropdown-divider">

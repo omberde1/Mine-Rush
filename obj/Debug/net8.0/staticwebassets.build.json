@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NUYViabK0yzedQHFsXbtrR4r45XiP7XnDXLvydITOd0=",
+  "Hash": "AZLC56nfYLh0tTYLoaXeUTGlJxYGrfmrs1FWwXzBBLw=",
   "Source": "MinesGame",
   "BasePath": "_content/MinesGame",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\mines-game.css"
+    },
+    {
+      "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\scroll-bar-custom.css",
+      "SourceId": "MinesGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\",
+      "BasePath": "_content/MinesGame",
+      "RelativePath": "css/scroll-bar-custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\scroll-bar-custom.css"
     },
     {
       "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\site.css",
@@ -4119,6 +4138,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Game_Template\\js\\custom.js"
+    },
+    {
+      "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
+      "SourceId": "MinesGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\",
+      "BasePath": "_content/MinesGame",
+      "RelativePath": "Game_Template/js/edit-profile-form.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Game_Template\\js\\edit-profile-form.js"
     },
     {
       "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\gmaps.min.js",

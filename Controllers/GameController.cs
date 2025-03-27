@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -91,7 +92,8 @@ public class GameController : Controller
         return RedirectToAction("Home", "Game");
     }
 
-    /* ---------- MINES GAME APP ---------- */
+    /* ---------- NAV BAR ---------- */
+
     [HttpGet]
     public IActionResult Home()
     {
@@ -121,6 +123,30 @@ public class GameController : Controller
     public IActionResult Contact()
     {
         return View();
+    }
+
+    /* ---------- PLAYER ACTION BAR ---------- */
+
+    [HttpGet]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> Profile()
+    {
+        var getDummyPlayer = await _playerService.CreateDummyPlayer(HttpContext);
+        return View(getDummyPlayer);
+    }
+    [HttpPost]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> Profile([FromBody] PlayerViewModel playerVm)
+    {
+        bool isPlayerEdited = await _playerService.EditPlayerAsync(HttpContext,playerVm);
+        if(isPlayerEdited == true)
+        {
+            return Json(new {success=true, message="Profile edited successfully."});
+        }
+        else
+        {
+            return Json(new {success=false, message="Email/Username already esists."});
+        }
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

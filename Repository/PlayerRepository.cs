@@ -2,6 +2,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using MinesGame.Data;
 using MinesGame.Models;
+using MinesGame.ViewModels;
 
 namespace MinesGame.Repository;
 
@@ -20,9 +21,15 @@ public class PlayerRepository : IPlayerRepository
         await SaveToDbAsync();
     }
 
-    public async Task UpdatePlayerAsync(Player player)
+    public async Task UpdatePlayerDetailsAsync(int playerId, PlayerViewModel player)
     {
-        _context.Update(player);
+        var currentPlayer = await _context.Table_Player.FindAsync(playerId);
+
+        currentPlayer!.Username = player.Username;
+        currentPlayer.Email = player.Email;
+        currentPlayer.Password = player.Password;
+
+        _context.Table_Player.Update(currentPlayer); // Now EF tracks only changed fields
         await SaveToDbAsync();
     }
 
@@ -32,14 +39,28 @@ public class PlayerRepository : IPlayerRepository
         await SaveToDbAsync();
     }
 
-    public async Task<bool> IsExisitingPlayer(string username, string email)
+    public async Task<bool> CheckUsernameOrEmailExists(string username, string email)
     {
         return await _context.Table_Player.AnyAsync(p => p.Username == username || p.Email == email);
     }
 
-    public async Task<Player?> GetPlayerAsync(string username_email)
+    public async Task<Player?> GetPlayerAsync(string username, string email)
     {
-        return await _context.Table_Player.FirstOrDefaultAsync(p => p.Username == username_email || p.Email == username_email);
+        // Either returns null or player if found
+        return await _context.Table_Player
+        .FirstOrDefaultAsync(p => p.Username == username || p.Email == email);
+    }
+
+    public async Task<PlayerViewModel> GetDummyPlayer(int playerId)
+    {
+        var realPlayer = await _context.Table_Player.FindAsync(playerId);
+        var newDummyplayer = new PlayerViewModel
+        {
+            Username = realPlayer!.Username,
+            Email = realPlayer.Email,
+            Password = realPlayer.Password
+        };
+        return newDummyplayer;
     }
 
     public async Task<bool> IsSqlServerRunning()

@@ -20,6 +20,15 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     options.AccessDeniedPath = "/Game/AccessDenied";
 });
 
+builder.Services.AddDistributedMemoryCache(); // Required for session storage
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(20);
+    options.Cookie.HttpOnly = true; // Security: Prevents JavaScript access
+    options.Cookie.IsEssential = true; // Ensuring session works with GDPR settings
+});
+
+
 // Register repositories
 builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
 
@@ -43,6 +52,8 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseSession(); // Enable session support
 
 app.MapControllerRoute(
     name: "default",

@@ -849,6 +849,10 @@
       "PackagePath": "staticwebassets\\Game_Template\\js\\custom.js"
     },
     {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
+      "PackagePath": "staticwebassets\\Game_Template\\js\\edit-profile-form.js"
+    },
+    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\gmaps.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\gmaps.min.js"
     },
@@ -1135,6 +1139,10 @@
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\mines-game.css",
       "PackagePath": "staticwebassets\\css\\mines-game.css"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\scroll-bar-custom.css",
+      "PackagePath": "staticwebassets\\css\\scroll-bar-custom.css"
     },
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\site.css",

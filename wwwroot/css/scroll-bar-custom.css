@@ -1,0 +1,17 @@
+/*      ScrollBar    */
+html::-webkit-scrollbar {
+    background-color: #000;
+    width: 12px;
+    border-radius: 0px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #000;
+    border-radius: 0px;
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #fd1d1d), color-stop(1, #c6019a));
+    border-radius: 0px;
+}
