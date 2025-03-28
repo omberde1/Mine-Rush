@@ -14,16 +14,16 @@ WHERE TABLE_NAME = 'Table_Player';
 
 -- 1) Players Table
 
--- SELECT TOP (10)
---     [PlayerId]
---       , [Username]
---       , [Email]
---       , [Password]
---       , [Balance]
--- FROM [MinesGame].[dbo].[Table_Player]
+SELECT TOP (10)
+    [PlayerId]
+      , [Username]
+      , [Email]
+      , [Password]
+      , [Balance]
+FROM [MinesGame].[dbo].[Table_Player]
 
-SELECT TOP (10) *
-FROM [MinesGame].[dbo].[Table_Transaction]
+-- SELECT TOP (10) *
+-- FROM [MinesGame].[dbo].[Table_Transaction]
 
 -- update Table_Player
 -- set Balance = 10

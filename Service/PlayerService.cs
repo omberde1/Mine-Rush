@@ -93,7 +93,9 @@ public class PlayerService : IPlayerService
     public async Task<bool> EditPlayerAsync(HttpContext httpContext, PlayerViewModel playerVm)
     {
         int playerId = GetCurrentPlayerId(httpContext);
-        if (playerId == -1 || VerifyPlayerFields(playerVm) == false)
+        bool isExistingUsernameOrEmail = await _playerRepository.CheckUsernameOrEmailExists(playerVm.Username, playerVm.Email);
+        bool arePlayerFieldsValid = VerifyPlayerFields(playerVm);
+        if (playerId == -1 || isExistingUsernameOrEmail == true || arePlayerFieldsValid == false)
         {
             return false;
         }
