@@ -106,7 +106,7 @@ public class PlayerService : IPlayerService
         }
     }
 
-    public async Task<object> AddMoneyToWallet(HttpContext httpContext,int amountToAdd)
+    public async Task<object> AddMoneyToWallet(HttpContext httpContext, string amountToAdd)
     {
         int playerId = GetCurrentPlayerId(httpContext);
         if (playerId == -1)
@@ -133,7 +133,7 @@ public class PlayerService : IPlayerService
         }
     }
 
-    public async Task<object> RemoveMoneyFromWallet(HttpContext httpContext,int amountToRemove)
+    public async Task<object> RemoveMoneyFromWallet(HttpContext httpContext, string amountToRemove)
     {
         int playerId = GetCurrentPlayerId(httpContext);
         if (playerId == -1)
@@ -148,7 +148,7 @@ public class PlayerService : IPlayerService
             {
                 return new {success = false, message = "Money Withdraw Error."};
             }
-            else if(amountToRemove > playerBalance)
+            else if(amountToDecimal > playerBalance)
             {
                 return new {success = false, message = "Withdraw amount cannot exceed wallet balance."};
             }

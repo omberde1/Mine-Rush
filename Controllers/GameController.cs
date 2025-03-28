@@ -102,7 +102,7 @@ public class GameController : Controller
     [Authorize(Roles = "Player")]
     public IActionResult PlayGame()
     {
-        return View("PlayGame");
+        return View();
     }
 
     [HttpGet]
@@ -156,14 +156,14 @@ public class GameController : Controller
     }
     [HttpPost]
     [Authorize(Roles = "Player")]
-    public async Task<IActionResult> WalletDeposit(int amount)
+    public async Task<IActionResult> WalletDeposit(string amount)
     {
         var addMoneyResponse = await _playerService.AddMoneyToWallet(HttpContext, amount);
         return Json(addMoneyResponse);
     }
     [HttpPost]
     [Authorize(Roles = "Player")]
-    public async Task<IActionResult> WalletWithdraw(int amount)
+    public async Task<IActionResult> WalletWithdraw(string amount)
     {
         var addMoneyResponse = await _playerService.RemoveMoneyFromWallet(HttpContext, amount);
         return Json(addMoneyResponse);

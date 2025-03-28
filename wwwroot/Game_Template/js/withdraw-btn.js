@@ -14,13 +14,13 @@ $(document).ready(function () {
         } else {
             $("#inputAmountError").text("").hide();
         }
-        
+
         return true;
     }
     
     $("#withdrawBtn").on("click", function (e) {
         e.preventDefault();
-        let inputAmount = parseInt($("#inputAmount").val().trim());
+        let inputAmount = parseFloat($("#inputAmount").val().trim());
         if(validateAmount(inputAmount) == false) return;
 
         $.ajax({
@@ -43,13 +43,10 @@ $(document).ready(function () {
                 toastr.error("Server down");
             },
             complete: function () {
-                setTimeout(function () {
-                    $("body > #loading-spinner").css("display", "none");
-                }, 1000);
+                $("body > #loading-spinner").css("display", "none");
                 location.reload();
             }
         });
-
     });
 
 });

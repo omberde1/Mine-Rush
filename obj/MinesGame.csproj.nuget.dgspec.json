@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj": {}
+    "e:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj": {}
   },
   "projects": {
-    "E:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj": {
+    "e:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj",
+        "projectUniqueName": "e:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj",
         "projectName": "MinesGame",
-        "projectPath": "E:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj",
+        "projectPath": "e:\\CODING_OM\\Asp Projects\\MinesGame\\MinesGame.csproj",
         "packagesPath": "C:\\Users\\Atharv\\.nuget\\packages\\",
-        "outputPath": "E:\\CODING_OM\\Asp Projects\\MinesGame\\obj\\",
+        "outputPath": "e:\\CODING_OM\\Asp Projects\\MinesGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Atharv\\AppData\\Roaming\\NuGet\\NuGet.Config"
