@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AZLC56nfYLh0tTYLoaXeUTGlJxYGrfmrs1FWwXzBBLw=",
+  "Hash": "AprhycOJj9TzFi70DDzobmSZEpZZvsi9Hry8PEIPro0=",
   "Source": "MinesGame",
   "BasePath": "_content/MinesGame",
   "Mode": "Default",
@@ -4140,6 +4140,25 @@
       "OriginalItemSpec": "wwwroot\\Game_Template\\js\\custom.js"
     },
     {
+      "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\deposit-btn.js",
+      "SourceId": "MinesGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\",
+      "BasePath": "_content/MinesGame",
+      "RelativePath": "Game_Template/js/deposit-btn.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Game_Template\\js\\deposit-btn.js"
+    },
+    {
       "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
       "SourceId": "MinesGame",
       "SourceType": "Discovered",
@@ -4499,6 +4518,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Game_Template\\js\\waypoints.min.js"
+    },
+    {
+      "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\withdraw-btn.js",
+      "SourceId": "MinesGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\",
+      "BasePath": "_content/MinesGame",
+      "RelativePath": "Game_Template/js/withdraw-btn.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Game_Template\\js\\withdraw-btn.js"
     },
     {
       "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_about_us.scss",

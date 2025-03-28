@@ -154,6 +154,20 @@ public class GameController : Controller
         var getDummyPlayerWallet = await _playerService.CreateDummyPlayerWallet(HttpContext);
         return View(getDummyPlayerWallet);
     }
+    [HttpPost]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> WalletDeposit(int amount)
+    {
+        var addMoneyResponse = await _playerService.AddMoneyToWallet(HttpContext, amount);
+        return Json(addMoneyResponse);
+    }
+    [HttpPost]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> WalletWithdraw(int amount)
+    {
+        var addMoneyResponse = await _playerService.RemoveMoneyFromWallet(HttpContext, amount);
+        return Json(addMoneyResponse);
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

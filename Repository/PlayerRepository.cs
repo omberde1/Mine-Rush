@@ -76,7 +76,7 @@ public class PlayerRepository : IPlayerRepository
 
         if (transactions.IsNullOrEmpty())
         {
-            return new WalletDisplayViewModel 
+            return new WalletDisplayViewModel
             {
                 Username = realPlayer!.Username,
                 CurrentBalance = realPlayer.Balance,
@@ -117,6 +117,51 @@ public class PlayerRepository : IPlayerRepository
         }
     }
 
+    public async Task<decimal> GetPlayerBalanceDB(int playerId)
+    {
+        var currentPlayerBalance = await _context.Table_Player.FindAsync(playerId);
+        return currentPlayerBalance!.Balance;
+    }
+
+    public async Task AddMoneyToWalletDB(int playerId, decimal amount)
+    {
+        var currentPlayer = await _context.Table_Player.FindAsync(playerId);
+        currentPlayer!.Balance += amount;
+        _context.Table_Player.Update(currentPlayer);
+
+        string uniqueTransactionId = await GenerateUniqueTransactionId();
+        var transaction = new Transaction
+        {
+            TransactionUID = uniqueTransactionId,
+            PlayerId = playerId,
+            Type = TransactionType.Deposit,
+            Amount = amount,
+            Status = TransactionStatus.Completed,
+        };
+        await _context.Table_Transaction.AddAsync(transaction);
+        
+        await SaveToDbAsync();
+    }
+
+    public async Task RemoveMoneyFromWalletDB(int playerId, decimal amount)
+    {
+        var currentPlayer = await _context.Table_Player.FindAsync(playerId);
+        currentPlayer!.Balance -= amount;
+        _context.Table_Player.Update(currentPlayer);
+
+        string uniqueTransactionId = await GenerateUniqueTransactionId();
+        var transaction = new Transaction
+        {
+            TransactionUID = uniqueTransactionId,
+            PlayerId = playerId,
+            Type = TransactionType.Withdraw,
+            Amount = amount,
+            Status = TransactionStatus.Completed,
+        };
+        await _context.Table_Transaction.AddAsync(transaction);
+
+        await SaveToDbAsync();
+    }
 
     public async Task<bool> IsSqlServerRunning()
     {
@@ -138,6 +183,22 @@ public class PlayerRepository : IPlayerRepository
     public async Task SaveToDbAsync()
     {
         await _context.SaveChangesAsync();
+    }
+
+
+    /* PRIVATE METHODS */
+
+    private async Task<string> GenerateUniqueTransactionId()
+    {
+        string transactionId = string.Empty;
+        do
+        {
+            Guid guid = Guid.NewGuid();
+            transactionId = guid.ToString("N").Substring(0, 8); // "N" removes hyphens, then take the first 8 characters
+        }
+        while (await _context.Table_Transaction.AnyAsync(t => t.TransactionUID == transactionId));
+
+        return transactionId;
     }
 
 }

@@ -9,5 +9,7 @@ public interface IPlayerService
     Task<bool> EditPlayerAsync(HttpContext httpContext, PlayerViewModel player);
     Task<PlayerViewModel> CreateDummyPlayer(HttpContext httpContext);
     Task<WalletDisplayViewModel> CreateDummyPlayerWallet(HttpContext httpContext);
+    Task<object> AddMoneyToWallet(HttpContext httpContext,int amountToAdd);
+    Task<object> RemoveMoneyFromWallet(HttpContext httpContext,int amountToRemove);
     Task<bool> IsSqlServerAvailableAsync();
 }

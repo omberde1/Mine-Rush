@@ -13,6 +13,9 @@ public interface IPlayerRepository
     Task<Player?> GetPlayerAsync(string username, string email);
     Task<PlayerViewModel> GetDummyPlayer(int playerId);
     Task<WalletDisplayViewModel> GetDummyWallet(int playerId);
+    Task<decimal> GetPlayerBalanceDB(int playerId);
+    Task AddMoneyToWalletDB(int playerId, decimal amount);
+    Task RemoveMoneyFromWalletDB(int playerId, decimal amount);
     Task<bool> IsSqlServerRunning();
     Task SaveToDbAsync();
 }

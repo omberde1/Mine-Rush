@@ -14,14 +14,21 @@ WHERE TABLE_NAME = 'Table_Player';
 
 -- 1) Players Table
 
-SELECT TOP (1000)
-    [PlayerId]
-      , [Username]
-      , [Email]
-      , [Password]
-      , [Balance]
-FROM [MinesGame].[dbo].[Table_Player]
+-- SELECT TOP (10)
+--     [PlayerId]
+--       , [Username]
+--       , [Email]
+--       , [Password]
+--       , [Balance]
+-- FROM [MinesGame].[dbo].[Table_Player]
+
+SELECT TOP (10) *
+FROM [MinesGame].[dbo].[Table_Transaction]
 
 -- update Table_Player
 -- set Balance = 10
 -- where PlayerId = 1;
+
+-- update Table_Transaction
+-- set [Type] = 1
+-- where TransactionId = 2;

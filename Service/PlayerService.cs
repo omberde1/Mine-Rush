@@ -104,6 +104,61 @@ public class PlayerService : IPlayerService
         }
     }
 
+    public async Task<object> AddMoneyToWallet(HttpContext httpContext,int amountToAdd)
+    {
+        int playerId = GetCurrentPlayerId(httpContext);
+        if (playerId == -1)
+        {
+            return new {success = false, message = "Player do not exists."};
+        }
+        else
+        {
+            decimal amountToDecimal = Convert.ToDecimal(amountToAdd);
+            decimal playerBalance = await _playerRepository.GetPlayerBalanceDB(playerId);
+            if(amountToDecimal < 100)
+            {
+                return new {success = false, message = "Cannot deposit less than 100rs."};
+            }
+            else if(playerBalance > 10000)
+            {
+                return new {success = false, message = "Wallet limit exceeds (10000rs)."};
+            }
+            else
+            {
+                await _playerRepository.AddMoneyToWalletDB(playerId, amountToDecimal);
+                return new {success = true, message = "Money Deposited Successfully."};
+            }
+        }
+    }
+
+    public async Task<object> RemoveMoneyFromWallet(HttpContext httpContext,int amountToRemove)
+    {
+        int playerId = GetCurrentPlayerId(httpContext);
+        if (playerId == -1)
+        {
+            return new {success = false, message = "Player do not exists."};
+        }
+        else
+        {
+            decimal amountToDecimal = Convert.ToDecimal(amountToRemove);
+            decimal playerBalance = await _playerRepository.GetPlayerBalanceDB(playerId);
+            if(amountToDecimal < 100)
+            {
+                return new {success = false, message = "Money Withdraw Error."};
+            }
+            else if(amountToRemove > playerBalance)
+            {
+                return new {success = false, message = "Withdraw amount cannot exceed wallet balance."};
+            }
+            else
+            {
+                await _playerRepository.RemoveMoneyFromWalletDB(playerId, amountToDecimal);
+                return new {success = true, message = "Money Withdrawn Successfully."};
+            }
+        }
+    }
+
+
     public async Task<bool> IsSqlServerAvailableAsync()
     {
         return await _playerRepository.IsSqlServerRunning();

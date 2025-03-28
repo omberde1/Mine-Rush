@@ -54,10 +54,8 @@ $(document).ready(function () {
             },
             success: function (response) {
                 if (response.success) {
-                    console.log("LoggedIn");
                     location.reload();
                 } else {
-                    console.log("Wrong crdentials");
                     toastr.error("Wrong crdentials");
                 }
             },
@@ -65,7 +63,6 @@ $(document).ready(function () {
                 toastr.error("Server down");
             },
             complete: function () {
-                console.log("AJAX completed.");
                 $("body > #loading-spinner").css("display", "none");
             }
         });

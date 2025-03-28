@@ -849,6 +849,10 @@
       "PackagePath": "staticwebassets\\Game_Template\\js\\custom.js"
     },
     {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\deposit-btn.js",
+      "PackagePath": "staticwebassets\\Game_Template\\js\\deposit-btn.js"
+    },
+    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\edit-profile-form.js"
     },
@@ -923,6 +927,10 @@
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\waypoints.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\withdraw-btn.js",
+      "PackagePath": "staticwebassets\\Game_Template\\js\\withdraw-btn.js"
     },
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_Latest_War.scss",

@@ -5,6 +5,12 @@
     ViewData["Title"] = "Wallet";
 }
 
+@section Styles{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" 
+    integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+
 <!-- breadcrumb start -->
 <section class="breadcrumb breadcrumb_bg">
     <div class="container">
@@ -12,7 +18,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb_iner text-center">
                     <div class="breadcrumb_iner_item">
-                        <h2>Your Wallet</h2>
+                        <h2>Wallet</h2>
                     </div>
                 </div>
             </div>
@@ -38,7 +44,7 @@
                 <tbody>
                     <tr>
                         <td>@Model.Username</td>
-                        <td>&#8377;@Model.CurrentBalance</td>
+                        <td id="playerBalance" data-balance="@Model.CurrentBalance">&#8377;@Model.CurrentBalance</td>
                     </tr>
                 </tbody>
             </table>
@@ -58,8 +64,10 @@
             </div>
         </div>
         <div class="w-100 mb-4 mt-2">
-            <input type="number" placeholder="Enter amount in rs" onfocus="this.placeholder = ''"
-                onblur="this.placeholder = 'Enter amount in rs'" required="" class="single-input" id="totalAmount">
+            <input type="number" placeholder="Enter amount in rs (Minimum 100rs)" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Enter amount in rs (Minimum 100rs)'" required="" 
+                class="single-input" id="inputAmount">
+            <span class="invalid-feedback" id="inputAmountError"></span>
         </div>
         <div class="row justify-content-center align-items-center">
 
@@ -121,7 +129,14 @@
                             <tr>
                                 <td>@transactions.UID</td>
                                 <td>@transactions.Type</td>
-                                <td>&#8377;@transactions.Amount</td>
+                                @if(transactions.Type == "Withdraw")
+                                {
+                                    <td class="text-success">+&#8377;@transactions.Amount</td>
+                                } 
+                                else
+                                {
+                                    <td>&#8377;@transactions.Amount</td>
+                                } 
                                 <td>@transactions.Status</td>
                                 <td>@transactions.MadeAt.ToString("yyyy-MM-dd")</td>
                                 <td>@transactions.MadeAt.ToString("HH:mm:ss")</td> <!-- Time -->
@@ -159,6 +174,10 @@ else
 <!-- Recent Transactions table end -->
 
 @section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" 
+    integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="~/Game_Template/js/deposit-btn.js"></script>
     <script src="~/Game_Template/js/withdraw-btn.js"></script>
 }
