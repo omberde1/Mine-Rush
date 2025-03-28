@@ -12,8 +12,8 @@ using MinesGame.Data;
 namespace MinesGame.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250326081606_AddingAllModels_Init")]
-    partial class AddingAllModels_Init
+    [Migration("20250328094049_AddedFieldToTransactionTable")]
+    partial class AddedFieldToTransactionTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -115,6 +115,10 @@ namespace MinesGame.Migrations
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("TransactionUID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Type")
                         .HasColumnType("int");

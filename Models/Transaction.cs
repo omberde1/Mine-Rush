@@ -11,6 +11,9 @@ namespace MinesGame.Models
         [Key]
         public int TransactionId { get; set; }
 
+        [Required]
+        public string TransactionUID { get; set; } = string.Empty;
+
         public int PlayerId { get; set; }
         [ForeignKey("PlayerId")]
         public Player? Player { get; set; }
