@@ -12,6 +12,7 @@ public interface IPlayerRepository
     Task<bool> CheckUsernameOrEmailExists(string username, string email);
     Task<Player?> GetPlayerAsync(string username, string email);
     Task<PlayerViewModel> GetDummyPlayer(int playerId);
+    Task<WalletDisplayViewModel> GetDummyWallet(int playerId);
     Task<bool> IsSqlServerRunning();
     Task SaveToDbAsync();
 }

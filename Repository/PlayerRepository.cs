@@ -1,5 +1,6 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using MinesGame.Data;
 using MinesGame.Models;
 using MinesGame.ViewModels;
@@ -54,14 +55,68 @@ public class PlayerRepository : IPlayerRepository
     public async Task<PlayerViewModel> GetDummyPlayer(int playerId)
     {
         var realPlayer = await _context.Table_Player.FindAsync(playerId);
-        var newDummyplayer = new PlayerViewModel
+        var newDummyPlayer = new PlayerViewModel
         {
             Username = realPlayer!.Username,
             Email = realPlayer.Email,
             Password = realPlayer.Password
         };
-        return newDummyplayer;
+        return newDummyPlayer;
     }
+
+    public async Task<WalletDisplayViewModel> GetDummyWallet(int playerId)
+    {
+        var realPlayer = await _context.Table_Player.FindAsync(playerId);
+
+        var transactions = await _context.Table_Transaction
+        .Where(t => t.PlayerId == playerId)
+        .OrderByDescending(t => t.CreatedAt) // Order transactions from newest to oldest
+        .Take(10)
+        .ToListAsync();
+
+        if (transactions.IsNullOrEmpty())
+        {
+            return new WalletDisplayViewModel 
+            {
+                Username = realPlayer!.Username,
+                CurrentBalance = realPlayer.Balance,
+                AllRecentTransactions = new List<WalletActionViewModel>()
+            };
+        }
+        else
+        {
+            // Running select separately for readability
+            var getAllRealPlayerTransactions = transactions
+            .Select(t => new WalletActionViewModel
+            {
+                UID = t.TransactionUID,
+                Type = t.Type switch
+                {
+                    TransactionType.Deposit => "Deposit",
+                    TransactionType.Withdraw => "Withdraw",
+                    _ => "Unknown"
+                },
+                Amount = t.Amount,
+                Status = t.Status switch
+                {
+                    TransactionStatus.Pending => "Pending",
+                    TransactionStatus.Completed => "Completed",
+                    TransactionStatus.Failed => "Failed",
+                    _ => "Unknown"
+                },
+                MadeAt = t.CreatedAt
+            })
+            .ToList();
+
+            return new WalletDisplayViewModel
+            {
+                Username = realPlayer!.Username,
+                CurrentBalance = realPlayer!.Balance,
+                AllRecentTransactions = getAllRealPlayerTransactions
+            };
+        }
+    }
+
 
     public async Task<bool> IsSqlServerRunning()
     {

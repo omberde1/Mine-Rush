@@ -74,6 +74,22 @@ public class PlayerService : IPlayerService
         }
     }
 
+    public async Task<WalletDisplayViewModel> CreateDummyPlayerWallet(HttpContext httpContext)
+    {
+        int playerId = GetCurrentPlayerId(httpContext);
+        if (playerId == -1)
+        {
+            var dummyWallet = new WalletDisplayViewModel{};
+            return dummyWallet;
+        }
+        else
+        {
+            var getdummyWallet = await _playerRepository.GetDummyWallet(playerId);
+            return getdummyWallet;
+        }
+    }
+
+
     public async Task<bool> EditPlayerAsync(HttpContext httpContext, PlayerViewModel playerVm)
     {
         int playerId = GetCurrentPlayerId(httpContext);

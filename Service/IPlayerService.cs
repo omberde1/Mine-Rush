@@ -8,5 +8,6 @@ public interface IPlayerService
     Task<bool> LoginPlayerAsync(HttpContext httpContext, string username_email, string password);
     Task<bool> EditPlayerAsync(HttpContext httpContext, PlayerViewModel player);
     Task<PlayerViewModel> CreateDummyPlayer(HttpContext httpContext);
+    Task<WalletDisplayViewModel> CreateDummyPlayerWallet(HttpContext httpContext);
     Task<bool> IsSqlServerAvailableAsync();
 }

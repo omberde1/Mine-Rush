@@ -1,0 +1,164 @@
+@using Microsoft.IdentityModel.Tokens;
+@model MinesGame.ViewModels.WalletDisplayViewModel
+
+@{
+    ViewData["Title"] = "Wallet";
+}
+
+<!-- breadcrumb start -->
+<section class="breadcrumb breadcrumb_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb_iner text-center">
+                    <div class="breadcrumb_iner_item">
+                        <h2>Your Wallet</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- breadcrumb end -->
+
+<!-- Player Wallet Balance start -->
+<section class="gallery_part section_padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <h3>Details</h3>
+        </div>
+        <div class="row">
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Username</td>
+                        <td>&#8377;@Model.CurrentBalance</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- Player Wallet Balance end -->
+
+<!-- Deposit / Withdraw start -->
+<section class="Latest_War">
+    <div class="container">
+        <div class="row justify-content-center mb-2 mt-4">
+            <div class="col-lg-8">
+                <div class="section_tittle text-center mb-0">
+                    <h2 class="mb-0">Deposit | Withdraw</h2>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 mb-4 mt-2">
+            <input type="number" placeholder="Enter amount in rs" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Enter amount in rs'" required="" class="single-input" id="totalAmount">
+        </div>
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-lg-6">
+                <div class="Latest_War_text Latest_War_bg_1">
+                    <div class="row justify-content-center align-items-center h-100">
+                        <div class="col-lg-6">
+                            <div class="single_war_text text-center">
+                                <img src="img/favicon.png" alt="">
+                                <h4>Add Money to Wallet</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn_2" id="depositBtn">Deposit</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="Latest_War_text Latest_War_bg_1">
+                    <div class="row justify-content-center align-items-center h-100">
+                        <div class="col-lg-6">
+                            <div class="single_war_text text-center">
+                                <h4>Receive Money from Wallet</h4>
+                                <img src="img/favicon.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn_2" id="withdrawBtn">Withdraw</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Deposit / Withdraw end -->
+
+<!-- Recent Transactions table start -->
+@if (Model.AllRecentTransactions.IsNullOrEmpty() == false)
+{
+    <section class="gallery_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3>Recent Transactions</h3>
+            </div>
+            <div class="row">
+                <table class="table table-bordered table-dark">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var transactions in Model.AllRecentTransactions)
+                        {
+                            <tr>
+                                <td>@transactions.UID</td>
+                                <td>@transactions.Type</td>
+                                <td>&#8377;@transactions.Amount</td>
+                                <td>@transactions.Status</td>
+                                <td>@transactions.MadeAt.ToString("yyyy-MM-dd")</td>
+                                <td>@transactions.MadeAt.ToString("HH:mm:ss")</td> <!-- Time -->
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <section class="upcomming_war">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section_tittle text-center">
+                        <h2>Recent Transactions</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="upcomming_war_iner">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-10 col-sm-5 col-lg-3">
+                        <div class="upcomming_war_counter text-center">
+                            <h2 class="d-flex justify-content-between">No Transactions Made Yet!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+<!-- Recent Transactions table end -->
+
+@section Scripts {
+    <script src="~/Game_Template/js/deposit-btn.js"></script>
+    <script src="~/Game_Template/js/withdraw-btn.js"></script>
+}

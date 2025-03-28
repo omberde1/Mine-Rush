@@ -12,13 +12,11 @@ namespace MinesGame.Controllers;
 
 public class GameController : Controller
 {
-    private readonly ILogger<GameController> _logger;
     private readonly IPlayerService _playerService;
 
-    public GameController(IPlayerService playerService, ILogger<GameController> logger)
+    public GameController(IPlayerService playerService)
     {
         _playerService = playerService;
-        _logger = logger;
     }
 
     /* ---------- REGISTER | LOGIN ---------- */
@@ -151,9 +149,10 @@ public class GameController : Controller
 
     [HttpGet]
     [Authorize(Roles = "Player")]
-    public IActionResult Wallet()
+    public async Task<IActionResult> Wallet()
     {
-        return View();
+        var getDummyPlayerWallet = await _playerService.CreateDummyPlayerWallet(HttpContext);
+        return View(getDummyPlayerWallet);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

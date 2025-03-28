@@ -1,13 +1,9 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace MinesGame.ViewModels
 {
     public class WalletDisplayViewModel
     {
-        [Required]
+        public string Username { get; set; } = string.Empty;
         public decimal CurrentBalance { get; set; } = 0;
-
-        [Required]
-        public decimal RecentTransactions { get; set; }
+        public List<WalletActionViewModel> AllRecentTransactions { get; set; } = new List<WalletActionViewModel>();
     }
 }
