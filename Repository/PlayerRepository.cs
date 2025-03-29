@@ -67,6 +67,7 @@ public class PlayerRepository : IPlayerRepository
     public async Task<WalletDisplayViewModel> GetDummyWallet(int playerId)
     {
         var realPlayer = await _context.Table_Player.FindAsync(playerId);
+        var netProfit = await GetNetProfit(playerId);
 
         var transactions = await _context.Table_Transaction
         .Where(t => t.PlayerId == playerId)
@@ -80,7 +81,7 @@ public class PlayerRepository : IPlayerRepository
             {
                 Username = realPlayer!.Username,
                 CurrentBalance = realPlayer.Balance,
-                AllRecentTransactions = new List<WalletActionViewModel>()
+                NetProfit = netProfit,
             };
         }
         else
@@ -112,6 +113,7 @@ public class PlayerRepository : IPlayerRepository
             {
                 Username = realPlayer!.Username,
                 CurrentBalance = realPlayer!.Balance,
+                NetProfit = netProfit,
                 AllRecentTransactions = getAllRealPlayerTransactions
             };
         }
@@ -163,6 +165,33 @@ public class PlayerRepository : IPlayerRepository
         await SaveToDbAsync();
     }
 
+    public async Task<int> CreateNewGameDB(int playerId, int betAmount, int minesCount, string tilePositions)
+    {
+        var newGame = new Game
+        {
+            PlayerId = playerId,
+            BetAmount = betAmount,
+            MinesCount = minesCount,
+            MinesPositions = tilePositions
+        };
+        await _context.Table_Game.AddAsync(newGame);
+        await SaveToDbAsync();
+        return newGame.GameId;
+    }
+
+    public async Task<bool> BettingAmountValidateDB(int playerId, int betAmount)
+    {
+        var currentPlayer =  await _context.Table_Player.FindAsync(playerId);
+        if(betAmount > currentPlayer!.Balance)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+
     public async Task<bool> IsSqlServerRunning()
     {
         var connectionString = _context.Database.GetDbConnection().ConnectionString;
@@ -199,6 +228,14 @@ public class PlayerRepository : IPlayerRepository
         while (await _context.Table_Transaction.AnyAsync(t => t.TransactionUID == transactionId));
 
         return transactionId;
+    }
+
+    private async Task<decimal> GetNetProfit(int playerId)
+    {
+        // returns 0 if no game record found
+        return await _context.Table_Game
+        .Where(p => p.PlayerId == playerId)
+        .SumAsync(p => p.CashoutAmount);
     }
 
 }

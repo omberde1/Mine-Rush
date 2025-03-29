@@ -52,7 +52,6 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
 app.UseSession(); // Enable session support
 
 app.MapControllerRoute(

@@ -1,1403 +1,1471 @@
 {
   "Files": [
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\css\\font-awesome.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\css\\font-awesome.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\css\\main.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\css\\main.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\css\\main.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\css\\normalize.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\css\\normalize.min.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\css\\normalize.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\FontAwesome.otf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\img\\Thumbs.db",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\img\\Thumbs.db"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\img\\logo.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\img\\logo.png",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\img\\logo.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\index.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\index.html",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\index.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\js\\custom.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\js\\custom.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\js\\custom.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\js\\jquery-1.11.0.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\js\\jquery-1.11.0.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\js\\jquery.nav.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\js\\jquery.nav.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\js\\jquery.nav.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shAutoloader.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shAutoloader.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushAS3.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushAS3.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushBash.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushBash.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCpp.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCpp.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCss.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushCss.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushDiff.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushDiff.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushErlang.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushErlang.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJScript.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJScript.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJava.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJava.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPerl.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPerl.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPhp.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPhp.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPlain.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPlain.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPython.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushPython.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushRuby.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushRuby.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushSass.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushSass.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushScala.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushScala.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushSql.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushSql.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushVb.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushVb.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushXml.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shBrushXml.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shCore.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shCore.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shCore.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shLegacy.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shLegacy.js",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\scripts\\shLegacy.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCore.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCore.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCore.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreDefault.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreDefault.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreDjango.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreDjango.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreEclipse.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreEclipse.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreEmacs.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreEmacs.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreMidnight.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreMidnight.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreRDark.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shCoreRDark.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeDefault.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeDefault.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeDjango.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeDjango.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeEclipse.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeEclipse.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeEmacs.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeEmacs.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeMidnight.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeMidnight.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeRDark.css",
       "PackagePath": "staticwebassets\\Game_Template\\186 Gaiming -DOC\\syntax-highlighter\\styles\\shThemeRDark.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\blog.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\blog.html",
       "PackagePath": "staticwebassets\\Game_Template\\blog.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\contact.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\contact.html",
       "PackagePath": "staticwebassets\\Game_Template\\contact.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\all.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\all.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\all.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\animate.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\animate.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\animate.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\aos.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\aos.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\aos.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\bootstrap.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\bootstrap.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\flaticon.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\flaticon.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\flaticon.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\font-awesome.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\font-awesome.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\magnific-popup.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\magnific-popup.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\nice-select.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\nice-select.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\owl.carousel.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\slick.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\slick.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\slick.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\style.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\style.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\style.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\style.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\style.map",
       "PackagePath": "staticwebassets\\Game_Template\\css\\style.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\swiper.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\swiper.min.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\swiper.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\themify-icons.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\css\\themify-icons.css",
       "PackagePath": "staticwebassets\\Game_Template\\css\\themify-icons.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\elements.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\elements.html",
       "PackagePath": "staticwebassets\\Game_Template\\elements.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fighter.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fighter.html",
       "PackagePath": "staticwebassets\\Game_Template\\fighter.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.eot",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\Flaticon.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\Flaticon.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.woff",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\Flaticon.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.woff2",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\Flaticon.woff2"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\FontAwesome.otf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.woff2",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.eot",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\themify.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.svg",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\themify.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\themify.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\fonts\\themify.woff",
       "PackagePath": "staticwebassets\\Game_Template\\fonts\\themify.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\Portfolio.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\Portfolio.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\Portfolio.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\Shape_text.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\Shape_text.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\Shape_text.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\about_img.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\about_img.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\about_img.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\about_img_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\about_img_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\about_img_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\about_shape.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\about_shape.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\about_shape.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\Shape-13.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\Shape-13.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\Shape-13.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\Shape-14.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\Shape-14.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\Shape-14.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\Shape-16.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\Shape-16.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\Shape-16.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\shape-1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-10.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-10.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\shape-10.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\shape-3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-7.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-7.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\shape-7.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-8.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape-8.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\shape-8.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\animate_icon\\shape.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\animate_icon\\shape.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\author\\author_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\author\\author_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\author\\author_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\author\\author_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\author\\author_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\author\\author_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\author\\author_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\author\\author_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\author\\author_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\banner_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\banner_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\banner_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\banner_img.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\banner_img.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\banner_img.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\author.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\author.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\author.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\blog_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\blog_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\blog_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_4.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\blog_4.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\blog_4.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\learn_about_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\learn_about_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\learn_about_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\single_blog_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\single_blog_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\single_blog_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_4.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_4.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\single_blog_4.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_5.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\single_blog_5.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\single_blog_5.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\slide_thumb_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\blog\\slide_thumb_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\blog\\slide_thumb_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\body_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\body_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\body_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\breadcrumb.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\breadcrumb.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\breadcrumb.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\client_logo\\client_logo_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\client_logo\\client_logo_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\client_logo\\client_logo_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_4.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_4.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\client_logo\\client_logo_4.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_5.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\client_logo\\client_logo_5.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\client_logo\\client_logo_5.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\comment\\comment_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\comment\\comment_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\comment\\comment_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\comment\\comment_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\comment\\comment_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\comment\\comment_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\comment\\comment_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\comment\\comment_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\comment\\comment_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\a.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\a.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\a.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\a2.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\a2.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\a2.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\d.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\d.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\d.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\disabled-check.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\disabled-check.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\disabled-check.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\disabled-radio.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\disabled-radio.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\disabled-radio.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f1.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f1.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f1.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f2.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f2.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f2.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f3.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f3.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f3.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f4.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f4.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f4.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f5.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f5.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f5.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f6.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f6.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f6.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f7.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f7.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f7.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f8.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\f8.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\f8.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g1.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g1.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g1.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g2.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g2.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g2.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g3.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g3.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g3.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g4.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g4.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g4.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g5.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g5.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g5.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g6.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g6.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g6.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g7.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g7.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g7.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g8.jpg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\g8.jpg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\g8.jpg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\primary-check.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\primary-check.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\primary-check.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\primary-radio.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\primary-radio.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\primary-radio.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\success-check.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\success-check.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\success-check.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\success-radio.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\elements\\success-radio.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\elements\\success-radio.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\event_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\event_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\event_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\favicon.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\favicon.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\favicon.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\footer_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\footer_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\footer_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_4.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_4.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_4.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_5.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_5.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_5.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_6.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_6.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_6.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_7.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_7.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_7.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_71.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_71.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_71.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_8.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\gallery\\gallery_item_8.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\gallery\\gallery_item_8.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\color_star.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\color_star.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\color_star.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\feature_icon_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_1.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_1.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\feature_icon_1.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\feature_icon_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_2.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_2.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\feature_icon_2.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\feature_icon_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_3.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\feature_icon_3.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\feature_icon_3.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\left.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\left.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\left.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\play.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\play.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\play.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\quate.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\quate.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\quate.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\right-arrow.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\right-arrow.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\right-arrow.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\right.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\right.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\right.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\star.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\icon\\star.svg",
       "PackagePath": "staticwebassets\\Game_Template\\img\\icon\\star.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\latest_war_img.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\latest_war_img.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\latest_war_img.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\latest_war_img_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\latest_war_img_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\latest_war_img_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\latest_war_img_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\latest_war_img_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\latest_war_img_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\left_sharp.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\left_sharp.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\left_sharp.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\live_stareams_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\live_stareams_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\live_stareams_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\live_streams_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\live_streams_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\live_streams_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\live_streams_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\live_streams_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\live_streams_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\logo.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\logo.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\logo.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\logo_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\logo_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\logo_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\next.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\next.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\next.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_10.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_10.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_10.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_3.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_3.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_3.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_4.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_4.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_4.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_5.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_5.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_5.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_6.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_6.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_6.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_7.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_7.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_7.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_8.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_8.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_8.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_9.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\post_9.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\post_9.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\preview.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\post\\preview.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\post\\preview.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\pricing_bg.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\pricing_bg.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\pricing_bg.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\war_logo_1.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\war_logo_1.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\war_logo_1.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\war_logo_2.png",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\img\\war_logo_2.png",
       "PackagePath": "staticwebassets\\Game_Template\\img\\war_logo_2.png"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\index.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\index.html",
       "PackagePath": "staticwebassets\\Game_Template\\index.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\aos.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\aos.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\aos.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\bootstrap.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\bootstrap.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\contact-us-dummy.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\contact-us-dummy.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\contact-us-dummy.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\custom.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\custom.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\custom.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\deposit-btn.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\deposit-btn.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\deposit-btn.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\edit-profile-form.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\gmaps.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\gmaps.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\gmaps.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery-1.12.1.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery-1.12.1.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\jquery-1.12.1.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery-3.7.1.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery-3.7.1.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\jquery-3.7.1.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery.counterup.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery.easing.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery.easing.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\jquery.easing.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery.magnific-popup.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\jquery.magnific-popup.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\jquery.magnific-popup.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\login-form.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\login-form.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\login-form.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\masonry.pkgd.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\masonry.pkgd.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\masonry.pkgd.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\masonry.pkgd.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\masonry.pkgd.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\masonry.pkgd.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\owl.carousel.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\particles.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\particles.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\particles.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\player-form.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\player-form.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\player-form.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\popper.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\popper.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\register-form.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\register-form.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\register-form.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\slick.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\slick.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\swiper.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\swiper.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\swiper.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\swiper_custom.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\swiper_custom.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\swiper_custom.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\waypoints.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\waypoints.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\waypoints.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\withdraw-btn.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\withdraw-btn.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\withdraw-btn.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_Latest_War.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_Latest_War.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_Latest_War.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_about_us.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_about_us.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_about_us.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_banner.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_banner.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_banner.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_blog.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_blog.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_blog.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_blog_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_blog_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_blog_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_breadcrumb.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_breadcrumb.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_button.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_button.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_button.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_client_logo.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_client_logo.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_client_logo.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_common.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_common.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_common.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_contact.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_contact.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_contact.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_copyright_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_copyright_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_copyright_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_cource_details.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_cource_details.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_cource_details.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_cta_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_cta_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_cta_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_elements.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_elements.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_elements.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_extends.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_extends.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_extends.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_feature_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_feature_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_feature_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_footer.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_footer.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_footer.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_gallery_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_gallery_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_gallery_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_live_stareams.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_live_stareams.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_live_stareams.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_member_counter.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_member_counter.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_member_counter.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_menu.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_menu.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_menu.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_mixins.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_mixins.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_mixins.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_portfolio.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_portfolio.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_portfolio.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_pricing_plan.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_pricing_plan.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_pricing_plan.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_project_details.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_project_details.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_project_details.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_review.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_review.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_review.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_single_blog.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_single_blog.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_single_blog.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_social_connect_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_social_connect_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_social_connect_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_special_cource.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_special_cource.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_special_cource.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_team.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_team.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_team.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_testimonial_part.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_testimonial_part.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_testimonial_part.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_upcomming_war.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_upcomming_war.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_upcomming_war.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_use_sasu.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_use_sasu.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_use_sasu.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_variables.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_variables.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\_variables.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\style.scss",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\style.scss",
       "PackagePath": "staticwebassets\\Game_Template\\sass\\style.scss"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\single-blog.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\single-blog.html",
       "PackagePath": "staticwebassets\\Game_Template\\single-blog.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\team.html",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\team.html",
       "PackagePath": "staticwebassets\\Game_Template\\team.html"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.woff2",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.woff2",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.eot",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.svg",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.ttf",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.woff",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.woff2",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\Game_Template\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\input-text-color.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-1\\icon1.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-1\\icon1.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-1\\icon2.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-1\\icon2.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-1\\icon3.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-1\\icon3.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-1\\icon4.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-1\\icon4.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-2\\icon1.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-2\\icon1.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-2\\icon2.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-2\\icon2.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-2\\icon3.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-2\\icon3.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-2\\icon4.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-2\\icon4.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-b\\icon2.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-b\\icon2.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-b\\icon3.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-b\\icon3.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-b\\icon4a.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-b\\icon4a.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-b\\icon4b.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-b\\icon4b.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-b\\icon5.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-b\\icon5.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-w\\icon1.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-w\\icon1.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-w\\icon2.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-w\\icon2.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-w\\icon3.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-w\\icon3.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Logos\\logo-3-w\\icon4.png",
+      "PackagePath": "staticwebassets\\Logos\\logo-3-w\\icon4.png"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\input-text-color.css",
       "PackagePath": "staticwebassets\\css\\input-text-color.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\mines-game.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\mines-game.css",
       "PackagePath": "staticwebassets\\css\\mines-game.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\scroll-bar-custom.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\scroll-bar-custom.css",
       "PackagePath": "staticwebassets\\css\\scroll-bar-custom.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\site.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\favicon.ico",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\mines-game.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\mines-game.js",
       "PackagePath": "staticwebassets\\js\\mines-game.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\site.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "e:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\query\\queries.sql",
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\query\\queries.sql",
       "PackagePath": "staticwebassets\\query\\queries.sql"
     },
     {

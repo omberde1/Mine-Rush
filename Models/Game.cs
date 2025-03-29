@@ -22,7 +22,7 @@ namespace MinesGame.Models
         public decimal BetAmount { get; set; } = 0;
 
         [Required]
-        public int MinesCount { get; set; }
+        public int MinesCount { get; set; } = 1;
 
         [Required]
         [Column(TypeName = "decimal(18,2)")]

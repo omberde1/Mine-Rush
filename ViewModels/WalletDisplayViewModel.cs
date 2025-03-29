@@ -4,6 +4,7 @@ namespace MinesGame.ViewModels
     {
         public string Username { get; set; } = string.Empty;
         public decimal CurrentBalance { get; set; } = 0;
-        public List<WalletActionViewModel> AllRecentTransactions { get; set; } = new List<WalletActionViewModel>();
+        public decimal NetProfit { get; set; } = 0;
+        public List<WalletActionViewModel> AllRecentTransactions { get; set; } = [];
     }
 }

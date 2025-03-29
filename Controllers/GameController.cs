@@ -102,8 +102,31 @@ public class GameController : Controller
     [Authorize(Roles = "Player")]
     public IActionResult PlayGame()
     {
+        // var getGameStatus = await _playerService.GetGameSession(HttpContext);
+        // return View(getGameStatus);
         return View();
     }
+    // [HttpPost]
+    // [Authorize(Roles = "Player")]
+    // public async Task<IActionResult> StartGame(int betAmount, int minesCount)
+    // {
+    //     var isGameActive = await _playerService.StartGameSession(HttpContext, betAmount, minesCount);
+    //     return View(isGameActive);
+    // }
+    // [HttpPost]
+    // [Authorize(Roles = "Player")]
+    // public async Task<IActionResult> TileClick([FromBody] int tilePosition)
+    // {
+    //     var isGameActive = await _playerService.TileClickUpdateSession(HttpContext, tilePosition);
+    //     return View(isGameActive);
+    // }
+    // [HttpPost]
+    // [Authorize(Roles = "Player")]
+    // public async Task<IActionResult> EndGame()
+    // {
+    //     var isGameActive = await _playerService.EndGameSession(HttpContext);
+    //     return View(isGameActive);
+    // }
 
     [HttpGet]
     public IActionResult Rules()

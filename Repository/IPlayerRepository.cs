@@ -20,6 +20,10 @@ public interface IPlayerRepository
     Task AddMoneyToWalletDB(int playerId, decimal amount);
     Task RemoveMoneyFromWalletDB(int playerId, decimal amount);
 
+    Task<int> CreateNewGameDB(int playerId, int betAmount, int minesCount, string tilePositions);
+
+    Task<bool> BettingAmountValidateDB(int playerId, int betAmount);
+
     Task<bool> IsSqlServerRunning();
     Task SaveToDbAsync();
 }

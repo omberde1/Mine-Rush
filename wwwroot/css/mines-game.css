@@ -47,22 +47,20 @@ body {
     padding-right: 2rem;
 }
 
+.cashout-btn {background-image: linear-gradient(to right, #0b7200 0%, #71B280  51%, #237600  100%)}
 .cashout-btn {
-    background: #28a745;
-    color: white;
-    border: none;
-    padding: 12px 30px;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
-    width: 100%;
-    margin-top: 1.5rem;
-}
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+ }
 
-.cashout-btn:hover {
-    background: #218838;
-    transform: scale(1.02);
-}
+ .cashout-btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
 
 @media (max-width: 768px) {
     .game-container {
