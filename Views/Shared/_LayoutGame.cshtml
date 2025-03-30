@@ -28,26 +28,20 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="~/Game_Template/css/style.css">
     <!-- loader -->
-    <style>
-    .custom-loader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5); /* Reduced opacity */
-        z-index: 10000; /* Ensure it appears on top */
-        justify-content: center;
-        align-items: center;
-    }
-    </style>
+    <link rel="stylesheet" href="~/css/loader.css">
+
     @await RenderSectionAsync("Styles", required: false)
 </head>
 
 <body>
     <!-- Full-Screen Spinner START -->
+    <!-- Primary -->
     <div id="loading-spinner" class="custom-loader" style="display: none;">
         <div class="spinner-border text-light" role="status"></div>
+    </div>
+    <!-- Secondary -->
+    <div id="loading-spinner-2" class="custom-loader-2" style="display: none;">
+        <div class="spinner-grow text-light" role="status"></div>
     </div>
     <!-- Full-Screen Spinner END -->
 

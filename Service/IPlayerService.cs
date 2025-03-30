@@ -14,10 +14,10 @@ public interface IPlayerService
     Task<object> AddMoneyToWallet(HttpContext httpContext,string amountToAdd);
     Task<object> RemoveMoneyFromWallet(HttpContext httpContext,string amountToRemove);
 
-    // Task<object> GetGameSession(HttpContext httpContext);
-    Task<object> StartGameSession(HttpContext httpContext, int betAmount, int minesCount);
-    // Task<object> TileClickUpdateSession(HttpContext httpContext, int tilePosition);
-    // Task<object> EndGameSession(HttpContext httpContext);
+    Task<object> GetActiveGameSession(HttpContext httpContext);
+    Task<object> StartGameSession(HttpContext httpContext, string betAmount, int minesCount);
+    Task<object> TileClickUpdateSession(HttpContext httpContext, int tilePosition);
+    Task<object> CashoutGameSession(HttpContext httpContext);
 
     Task<bool> IsSqlServerAvailableAsync();
 }

@@ -31,9 +31,8 @@ namespace MinesGame.Models
         [Required]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        [Required]
         public DateTime? EndedAt { get; set; } = null;
 
-        public string MinesPositions { get; set; } = string.Empty;
+        public string TilesOpened { get; set; } = string.Empty;
     }
 }

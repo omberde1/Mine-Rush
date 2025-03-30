@@ -1,3 +1,4 @@
+@* @Html.AntiForgeryToken() *@
 @using MinesGame.ViewModels;
 @model PlayerViewModel
 
@@ -22,7 +23,7 @@
             <div class="col-lg-12">
                 <div class="breadcrumb_iner text-center">
                     <div class="breadcrumb_iner_item">
-                        <h2>Register</h2>
+                        <h2>Profile</h2>
                     </div>
                 </div>
             </div>
@@ -36,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="contact-title mb-2 text-center">Create Account</h2>
+                <h2 class="contact-title mb-2 text-center">Edit Profile</h2>
             </div>
             <div class="col">
                 <form class="form-contact contact_form"
@@ -66,7 +67,7 @@
                                 <input class="form-control" value="@Model.Password" name="newPassword" id="newPassword" type="password"
                                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter new password'"
                                     placeholder='Enter new password'>
-                                <span class="input-group-text bg-white" id="togglePassword1" style="cursor: pointer;">
+                                <span class="input-group-text bg-white" id="togglePassword3" style="cursor: pointer;">
                                     <i class="bi bi-eye-slash"></i>
                                 </span>
                             </div>
@@ -89,6 +90,6 @@
     integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="~/Game_Template/js/player-form.js"></script>
-    <script src="~/Game_Template/js/edit-profile-form.js"></script>
+    <script src="~/js/form-validators/password-validator.js"></script>
+    <script src="~/js/profile-actions/edit-profile-form.js"></script>
 }

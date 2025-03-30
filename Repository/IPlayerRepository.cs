@@ -9,7 +9,7 @@ public interface IPlayerRepository
     Task UpdatePlayerDetailsAsync(int playerId, PlayerViewModel player);
     Task RemovePlayerAsync(Player player);
 
-    Task<bool> CheckUsernameOrEmailExists(string username, string email);
+    Task<bool> CheckUsernameOrEmailExists(string username, string email, int playerId=-1);
 
     Task<Player?> GetPlayerAsync(string username, string email);
 
@@ -20,9 +20,16 @@ public interface IPlayerRepository
     Task AddMoneyToWalletDB(int playerId, decimal amount);
     Task RemoveMoneyFromWalletDB(int playerId, decimal amount);
 
-    Task<int> CreateNewGameDB(int playerId, int betAmount, int minesCount, string tilePositions);
-
-    Task<bool> BettingAmountValidateDB(int playerId, int betAmount);
+    Task<int> CreateNewGameDB(int playerId, decimal betAmount, int minesCount);
+    Task UpdateGameDiamondClickedDB(int gameId, decimal multiplier, int tilePosition);
+    Task UpdateGamePlayerWonDB(int playerId, int gameId);
+    Task UpdateGamePlayerLostDB(int gameId);
+    Task<decimal> GetCurrentGameBetAmountDB(int gameId);
+    Task<int> GetCurrentGameMinesSelectedDB(int gameId);
+    Task<decimal> GetCurrentGameProfitDB(int gameId);
+    Task<string> GetCurrentGameTilesPosition(int gameId);
+    Task<bool> IsExistingTileClickedDB(int gameId, int tilePosition);
+    Task<bool> BettingAmountValidateDB(int playerId, decimal betAmount);
 
     Task<bool> IsSqlServerRunning();
     Task SaveToDbAsync();

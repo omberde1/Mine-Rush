@@ -12,8 +12,8 @@ using MinesGame.Data;
 namespace MinesGame.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250328094049_AddedFieldToTransactionTable")]
-    partial class AddedFieldToTransactionTable
+    [Migration("20250330173446_InitComplete")]
+    partial class InitComplete
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,21 +43,20 @@ namespace MinesGame.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("EndedAt")
-                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<int>("MinesCount")
                         .HasColumnType("int");
-
-                    b.Property<string>("MinesPositions")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlayerId")
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("TilesOpened")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("GameId");
 

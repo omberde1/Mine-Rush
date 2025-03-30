@@ -30,7 +30,6 @@ public class PlayerRepository : IPlayerRepository
         currentPlayer.Email = player.Email;
         currentPlayer.Password = player.Password;
 
-        _context.Table_Player.Update(currentPlayer); // Now EF tracks only changed fields
         await SaveToDbAsync();
     }
 
@@ -40,9 +39,19 @@ public class PlayerRepository : IPlayerRepository
         await SaveToDbAsync();
     }
 
-    public async Task<bool> CheckUsernameOrEmailExists(string username, string email)
+    public async Task<bool> CheckUsernameOrEmailExists(string username, string email, int playerId = -1)
     {
-        return await _context.Table_Player.AnyAsync(p => p.Username == username || p.Email == email);
+        // important to find other email/password expect us.
+        if (playerId != -1)
+        {
+            return await _context.Table_Player
+            .AnyAsync(p => (p.Username == username || p.Email == email) && p.PlayerId != playerId);
+        }
+        else
+        {
+            return await _context.Table_Player
+            .AnyAsync(p => p.Username == username || p.Email == email);
+        }
     }
 
     public async Task<Player?> GetPlayerAsync(string username, string email)
@@ -141,7 +150,7 @@ public class PlayerRepository : IPlayerRepository
             Status = TransactionStatus.Completed,
         };
         await _context.Table_Transaction.AddAsync(transaction);
-        
+
         await SaveToDbAsync();
     }
 
@@ -165,24 +174,113 @@ public class PlayerRepository : IPlayerRepository
         await SaveToDbAsync();
     }
 
-    public async Task<int> CreateNewGameDB(int playerId, int betAmount, int minesCount, string tilePositions)
+    public async Task<int> CreateNewGameDB(int playerId, decimal betAmount, int minesCount)
     {
         var newGame = new Game
         {
             PlayerId = playerId,
             BetAmount = betAmount,
-            MinesCount = minesCount,
-            MinesPositions = tilePositions
+            MinesCount = minesCount
         };
+        var currentPlayer = await _context.Table_Player.FindAsync(playerId);
+        currentPlayer!.Balance = currentPlayer.Balance - betAmount;
+
         await _context.Table_Game.AddAsync(newGame);
+        _context.Table_Player.Update(currentPlayer);
         await SaveToDbAsync();
+
         return newGame.GameId;
     }
 
-    public async Task<bool> BettingAmountValidateDB(int playerId, int betAmount)
+    public async Task UpdateGameDiamondClickedDB(int gameId, decimal multiplier, int tilePosition)
     {
-        var currentPlayer =  await _context.Table_Player.FindAsync(playerId);
-        if(betAmount > currentPlayer!.Balance)
+        var currentGame = await _context.Table_Game.FindAsync(gameId);
+        
+        string tilesOpened = currentGame!.TilesOpened + tilePosition.ToString() + ",";
+        currentGame.TilesOpened = tilesOpened;
+
+        decimal updatedCashoutAmount = currentGame.CashoutAmount + (currentGame.BetAmount * multiplier) - currentGame.BetAmount;
+        currentGame.CashoutAmount = updatedCashoutAmount;
+
+        _context.Table_Game.Update(currentGame);
+        await SaveToDbAsync();
+    }
+
+    public async Task UpdateGamePlayerWonDB(int playerId, int gameId)
+    {
+        var currentGame = await _context.Table_Game.FindAsync(gameId);
+        currentGame!.Status = GameStatus.Won;
+        currentGame.EndedAt = DateTime.Now;
+
+        var currentPlayer = await _context.Table_Player.FindAsync(playerId);
+        decimal wonAmount = currentPlayer!.Balance + currentGame.CashoutAmount;
+        currentPlayer!.Balance = wonAmount;
+
+        _context.Table_Game.Update(currentGame);
+        _context.Table_Player.Update(currentPlayer);
+        await SaveToDbAsync();
+    }
+
+    public async Task UpdateGamePlayerLostDB(int gameId)
+    {
+        var currentGame = await _context.Table_Game.FindAsync(gameId);
+        currentGame!.CashoutAmount = 0;
+        currentGame.Status = GameStatus.Lost;
+        currentGame.EndedAt = DateTime.Now;
+
+        _context.Table_Game.Update(currentGame);
+        await SaveToDbAsync();
+    }
+
+    public async Task<decimal> GetCurrentGameBetAmountDB(int gameId)
+    {
+        var currentBetAmount = await _context.Table_Game.FindAsync(gameId);
+        return currentBetAmount!.BetAmount;
+    }
+    
+    public async Task<int> GetCurrentGameMinesSelectedDB(int gameId)
+    {
+        var currentMinesSelected = await _context.Table_Game.FindAsync(gameId);
+        return currentMinesSelected!.MinesCount;
+    }
+
+    public async Task<decimal> GetCurrentGameProfitDB(int gameId)
+    {
+        var profitProgress = await _context.Table_Game.FindAsync(gameId);
+        return profitProgress!.CashoutAmount;
+    }
+
+    public async Task<string> GetCurrentGameTilesPosition(int gameId)
+    {
+        var profitProgress = await _context.Table_Game.FindAsync(gameId);
+        return profitProgress!.TilesOpened;
+    }
+
+    public async Task<bool> IsExistingTileClickedDB(int gameId, int tilePosition)
+    {
+        var currentGame = await _context.Table_Game.FindAsync(gameId);
+        string openedTiles = currentGame!.TilesOpened;
+
+        List<int> numbers = string.IsNullOrEmpty(openedTiles) ? [] : openedTiles
+            .TrimEnd(',') // Remove the trailing comma
+            .Split(',')
+            .Select(int.Parse)
+            .ToList();
+
+        if (numbers.Contains(tilePosition))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public async Task<bool> BettingAmountValidateDB(int playerId, decimal betAmount)
+    {
+        var currentPlayer = await _context.Table_Player.FindAsync(playerId);
+        if (betAmount > currentPlayer!.Balance)
         {
             return false;
         }

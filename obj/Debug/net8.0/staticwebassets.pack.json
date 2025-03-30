@@ -841,20 +841,8 @@
       "PackagePath": "staticwebassets\\Game_Template\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\contact-us-dummy.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\contact-us-dummy.js"
-    },
-    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\custom.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\custom.js"
-    },
-    {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\deposit-btn.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\deposit-btn.js"
-    },
-    {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\edit-profile-form.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\edit-profile-form.js"
     },
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\gmaps.min.js",
@@ -881,10 +869,6 @@
       "PackagePath": "staticwebassets\\Game_Template\\js\\jquery.magnific-popup.js"
     },
     {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\login-form.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\login-form.js"
-    },
-    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\masonry.pkgd.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\masonry.pkgd.js"
     },
@@ -901,16 +885,8 @@
       "PackagePath": "staticwebassets\\Game_Template\\js\\particles.min.js"
     },
     {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\player-form.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\player-form.js"
-    },
-    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\popper.min.js"
-    },
-    {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\register-form.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\register-form.js"
     },
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\slick.min.js",
@@ -927,10 +903,6 @@
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\waypoints.min.js",
       "PackagePath": "staticwebassets\\Game_Template\\js\\waypoints.min.js"
-    },
-    {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\js\\withdraw-btn.js",
-      "PackagePath": "staticwebassets\\Game_Template\\js\\withdraw-btn.js"
     },
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\Game_Template\\sass\\_Latest_War.scss",
@@ -1213,6 +1185,10 @@
       "PackagePath": "staticwebassets\\css\\input-text-color.css"
     },
     {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\loader.css",
+      "PackagePath": "staticwebassets\\css\\loader.css"
+    },
+    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\mines-game.css",
       "PackagePath": "staticwebassets\\css\\mines-game.css"
     },
@@ -1229,12 +1205,48 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\mines-game.js",
-      "PackagePath": "staticwebassets\\js\\mines-game.js"
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\contact-form\\contact-us-form-dummy.js",
+      "PackagePath": "staticwebassets\\js\\contact-form\\contact-us-form-dummy.js"
     },
     {
-      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\form-validators\\password-validator.js",
+      "PackagePath": "staticwebassets\\js\\form-validators\\password-validator.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\play-game\\cashout-btn.js",
+      "PackagePath": "staticwebassets\\js\\play-game\\cashout-btn.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\play-game\\click-mine.js",
+      "PackagePath": "staticwebassets\\js\\play-game\\click-mine.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\play-game\\play-game-reload.js",
+      "PackagePath": "staticwebassets\\js\\play-game\\play-game-reload.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\play-game\\start-game-btn.js",
+      "PackagePath": "staticwebassets\\js\\play-game\\start-game-btn.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\profile-actions\\edit-profile-form.js",
+      "PackagePath": "staticwebassets\\js\\profile-actions\\edit-profile-form.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\register-login-form\\login-form.js",
+      "PackagePath": "staticwebassets\\js\\register-login-form\\login-form.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\register-login-form\\register-form.js",
+      "PackagePath": "staticwebassets\\js\\register-login-form\\register-form.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\wallet-actions\\deposit-btn.js",
+      "PackagePath": "staticwebassets\\js\\wallet-actions\\deposit-btn.js"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\js\\wallet-actions\\withdraw-btn.js",
+      "PackagePath": "staticwebassets\\js\\wallet-actions\\withdraw-btn.js"
     },
     {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\lib\\bootstrap\\LICENSE",

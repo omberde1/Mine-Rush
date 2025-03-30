@@ -40,21 +40,20 @@ namespace MinesGame.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("EndedAt")
-                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<int>("MinesCount")
                         .HasColumnType("int");
-
-                    b.Property<string>("MinesPositions")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PlayerId")
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("TilesOpened")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("GameId");
 

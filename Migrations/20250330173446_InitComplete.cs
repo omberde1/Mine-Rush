@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace MinesGame.Migrations
 {
     /// <inheritdoc />
-    public partial class AddedFieldToTransactionTable : Migration
+    public partial class InitComplete : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,8 +39,8 @@ namespace MinesGame.Migrations
                     MinesCount = table.Column<int>(type: "int", nullable: false),
                     CashoutAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EndedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    MinesPositions = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    EndedAt = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    TilesOpened = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

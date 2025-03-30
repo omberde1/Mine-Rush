@@ -3,6 +3,10 @@
 }
 
 @section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" 
+    integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="~/css/mines-game.css">
 }
 
@@ -37,42 +41,34 @@
 
                         <div class="mb-0">
                             <h4 class="text-center mb-3">Bet Amount</h4>
-                            <select class="form-select mb-3">
-                                <option>$1</option>
-                                <option>$5</option>
-                                <option>$10</option>
-                                <option>$25</option>
-                                <option>$50</option>
-                                <option>$100</option>
-                            </select>
+                            <input class="form-select" type="number" value="0.00" id="betAmount">
                         </div>
 
                         <div class="mb-4">
                             <h4 class="text-center mb-3">Number of Mines</h4>
-                            <select class="form-select">
-                                <option>1</option>
-                                <option>3</option>
-                                <option>5</option>
-                                <option>10</option>
-                                <option>14</option>
-                                <option>18</option>
+                            <select class="form-select" id="minesCount">
+                                @for(int i=1; i <= 24; i++)
+                                {
+                                    <option value="@i" >@i</option>
+                                }
                             </select>
                         </div>
 
                         <div class="mb-4">
                             <h4 class="text-center mb-3">Profit</h4>
-                            <input class="form-select" value="0" readonly>
+                            <input id="totalProfit" type="number" class="form-select" value="0.00" readonly>
                         </div>
                         
-                        <button class="btn_1 p-3 w-100">Start Game</button>
-                        @* <button class="cashout-btn p-3 w-100 border-0">Cashout</button> *@
+                        <button class="btn_1 p-3 w-100" id="startGameBtn">Start Game</button>
+                        <button class="cashout-btn p-3 w-100 border-0" id="cashoutBtn">Cashout</button>
+                        
                     </div>
 
                     <!-- Right Game Grid -->
                     <div class="col-md-8">
                         <div class="game-container">
                             <div class="grid-container">
-                                @for (int i = 0; i < 25; i++)
+                                @for (int i = 1; i <= 25; i++)
                                 {
                                     <button class="mine-btn disabled" data-index="@i">❓</button>
                                 }
@@ -86,5 +82,12 @@
 </section>
 
 @section Scripts{
-    <script src="~/js/mines-game.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" 
+    integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="~/js/play-game/play-game-reload.js"></script>
+    <script src="~/js/play-game/start-game-btn.js"></script>
+    <script src="~/js/play-game/click-mine.js"></script>
+    <script src="~/js/play-game/cashout-btn.js"></script>
 }

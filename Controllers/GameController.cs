@@ -102,31 +102,52 @@ public class GameController : Controller
     [Authorize(Roles = "Player")]
     public IActionResult PlayGame()
     {
-        // var getGameStatus = await _playerService.GetGameSession(HttpContext);
-        // return View(getGameStatus);
         return View();
     }
-    // [HttpPost]
-    // [Authorize(Roles = "Player")]
-    // public async Task<IActionResult> StartGame(int betAmount, int minesCount)
-    // {
-    //     var isGameActive = await _playerService.StartGameSession(HttpContext, betAmount, minesCount);
-    //     return View(isGameActive);
-    // }
-    // [HttpPost]
-    // [Authorize(Roles = "Player")]
-    // public async Task<IActionResult> TileClick([FromBody] int tilePosition)
-    // {
-    //     var isGameActive = await _playerService.TileClickUpdateSession(HttpContext, tilePosition);
-    //     return View(isGameActive);
-    // }
-    // [HttpPost]
-    // [Authorize(Roles = "Player")]
-    // public async Task<IActionResult> EndGame()
-    // {
-    //     var isGameActive = await _playerService.EndGameSession(HttpContext);
-    //     return View(isGameActive);
-    // }
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> StartGame(string betAmount, int minesCount)
+    {
+        var startGameResponse = await _playerService.StartGameSession(HttpContext, betAmount, minesCount);
+        return Json(startGameResponse);
+    }
+    [HttpPost]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> GetActiveGame()
+    {
+        var activeGameStatus = await _playerService.GetActiveGameSession(HttpContext);
+        return Json(activeGameStatus);
+    }
+    [HttpPost]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> GameTileClick(int tileClickedPosition)
+    {
+        var tileClickResponse = await _playerService.TileClickUpdateSession(HttpContext, tileClickedPosition);
+        return Json(tileClickResponse);
+    }
+    [HttpPost]
+    [Authorize(Roles = "Player")]
+    public async Task<IActionResult> CashoutGame()
+    {
+        var endGameResponse = await _playerService.CashoutGameSession(HttpContext);
+        return Json(endGameResponse);
+    }
+
+    [HttpPost]
+    public IActionResult ClearSessionOnly()
+    {
+        /* 
+            fetch('/Game/ClearSession', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+            if (data.success) {
+                alert("Session cleared!");
+            }
+            })
+            .catch(error => console.error('Error:', error));
+        */
+        HttpContext.Session.Clear(); // Clears session data but keeps authentication (explicit browser testing)
+        return Json(new { success = true });
+    }
 
     [HttpGet]
     public IActionResult Rules()
@@ -155,18 +176,19 @@ public class GameController : Controller
         var getDummyPlayer = await _playerService.CreateDummyPlayer(HttpContext);
         return View(getDummyPlayer);
     }
+    // [HttpPost("Game/Edit-Profile")] // IMPORTANT use this for explicitly setting
     [HttpPost]
     [Authorize(Roles = "Player")]
-    public async Task<IActionResult> Profile([FromBody] PlayerViewModel playerVm)
+    public async Task<IActionResult> ProfileEdit([FromBody] PlayerViewModel playerVm)
     {
-        bool isPlayerEdited = await _playerService.EditPlayerAsync(HttpContext,playerVm);
-        if(isPlayerEdited == true)
+        bool isPlayerEdited = await _playerService.EditPlayerAsync(HttpContext, playerVm);
+        if (isPlayerEdited == true)
         {
-            return Json(new {success=true, message="Profile edited successfully."});
+            return Json(new { success = true, message = "Profile edited successfully." });
         }
         else
         {
-            return Json(new {success=false, message="Email/Username already esists."});
+            return Json(new { success = false, message = "Email/Username already esists." });
         }
     }
 
