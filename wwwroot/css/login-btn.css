@@ -1,0 +1,21 @@
+.login-btn {
+    background-image: linear-gradient(to right, #7700ff 0%, #ff00f2 51%, #8f0083 100%)
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 18.5px 40px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+}
+
+.login-btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

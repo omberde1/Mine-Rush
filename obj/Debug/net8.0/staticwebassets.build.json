@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fE7+OGoTb6U0Z0HtiI4QA68QbpzgxG/QkBKLvzn3zG4=",
+  "Hash": "G2wxeUnPaIVDjvN360WSO9FuMArAy0uvG/efYG8YMyY=",
   "Source": "MinesGame",
   "BasePath": "_content/MinesGame",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\loader.css"
+    },
+    {
+      "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\login-btn.css",
+      "SourceId": "MinesGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\",
+      "BasePath": "_content/MinesGame",
+      "RelativePath": "css/login-btn.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login-btn.css"
     },
     {
       "Identity": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\mines-game.css",

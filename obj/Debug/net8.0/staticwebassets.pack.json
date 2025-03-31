@@ -1189,6 +1189,10 @@
       "PackagePath": "staticwebassets\\css\\loader.css"
     },
     {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\login-btn.css",
+      "PackagePath": "staticwebassets\\css\\login-btn.css"
+    },
+    {
       "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\css\\mines-game.css",
       "PackagePath": "staticwebassets\\css\\mines-game.css"
     },
