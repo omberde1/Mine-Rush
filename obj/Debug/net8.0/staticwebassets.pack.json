@@ -1485,6 +1485,22 @@
       "PackagePath": "staticwebassets\\query\\queries.sql"
     },
     {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\sounds\\bomb.mp3",
+      "PackagePath": "staticwebassets\\sounds\\bomb.mp3"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\sounds\\cashout.mp3",
+      "PackagePath": "staticwebassets\\sounds\\cashout.mp3"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\sounds\\diamond.mp3",
+      "PackagePath": "staticwebassets\\sounds\\diamond.mp3"
+    },
+    {
+      "Id": "E:\\CODING_OM\\Asp Projects\\MinesGame\\wwwroot\\sounds\\start_game.mp3",
+      "PackagePath": "staticwebassets\\sounds\\start_game.mp3"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MinesGame.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

@@ -17,6 +17,8 @@ $(document).ready(function () {
             },
             success: function (response) {
                 if (response.success) {
+                    let startGameAudio = new Audio('/sounds/start_game.mp3');
+                    startGameAudio.play();
                     $("#startGameBtn").hide();
                     $("#cashoutBtn").show();
                     $("#betAmount").prop("disabled", true);

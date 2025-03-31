@@ -20,18 +20,23 @@ $(document).ready(function () {
             success: function (response) {
                 if (response.diamond) {
                     // ✅ If diamond is detected
+                    let diamondSound = new Audio('/sounds/diamond.mp3');
+                    diamondSound.play(); // Play sound effect
+
                     clickedButton.html("💎");
                     clickedButton.addClass("clicked"); // Apply flip effect
                     setTimeout(function () {
                         clickedButton.addClass("disabled"); // Disable after animation
                     }, 300); // Delay for flip animation
-                    
+
                     // Update profit value in input field
                     let newProfit = parseFloat(response.profit);
                     $("#totalProfit").val(newProfit.toFixed(2));
                 }
                 else if (!response.diamond) {
                     // ❌ If bomb is clicked
+                    let bombSound = new Audio('/sounds/bomb.mp3');
+                    bombSound.play(); // Play bomb sound
                     toastr.error("Game lost.");
                     clickedButton.html("💣");
                     clickedButton.addClass("clicked"); // Flip effect

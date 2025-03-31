@@ -11,6 +11,8 @@ $(document).ready(function () {
             },
             success: function (response) {
                 if (response.success) {
+                    let cashoutSound = new Audio('/sounds/cashout.mp3');
+                    cashoutSound.play();
                     $("#cashoutBtn").hide();
                     $("#startGameBtn").show();
                     $("#betAmount").prop("disabled", false);
